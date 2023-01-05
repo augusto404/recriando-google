@@ -47,15 +47,34 @@ nav {
 #icone-e-menu {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 #link-icone-menu-header {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+#link-icone-menu-header:hover {
+    background-color: rgba(60,64,67,.08);
 }
 #icone-menu-header {
     height: 24px;
     fill: #5f6368;
+}
+#conta-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#conta-google:hover {
+    background-color: rgba(60,64,67,.08);
 }
 #foto-de-perfil-header {
     display: flex;
