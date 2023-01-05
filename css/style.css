@@ -144,7 +144,9 @@ main {
     flex: 1;
     border: none;
 }
-
+#id-pesquisa:focus {
+    outline: none;
+}
 
 #botoes-de-acao {
     margin: 0px 25px 0px;
