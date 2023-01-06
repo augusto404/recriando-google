@@ -143,6 +143,7 @@ main {
 #id-pesquisa {
     flex: 1;
     border: none;
+    background-color: transparent;
 }
 #id-pesquisa:focus {
     outline: none;
